@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Global 변수 선언
         dockerRepo = "yl95yl/edu1"
-        dockerCredentials = 'nov_joomal_docker_test'
+        dockerCredentials = 'joomal_real_docker_credential'
         dockerImageVersioned = ""
         dockerImageLatest = ""
     }
